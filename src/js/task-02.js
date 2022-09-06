@@ -4,7 +4,7 @@ const list = document.querySelector('#ingredients');
 
 const array = [];
 
-ingredients.forEach(ingredient => {
+ingredients.map(ingredient => {
   const item = document.createElement('li');
   item.classList.toggle('item');
   item.textContent = ingredient;

@@ -9,5 +9,5 @@ const newColor = document.querySelector('span.color');
 changeColorBtn.addEventListener('click', event => {
   let randomColor = getRandomHexColor();
   body.style.backgroundColor = randomColor;
-  newColor.value = randomColor;
+  newColor.textContent = randomColor;
 });
